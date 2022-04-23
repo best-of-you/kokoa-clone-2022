@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Gamja+Flower&family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@400;700&family=Work+Sans:wght@400;600&display=swap');
 @import "reset.css";
 @import "variables.css";
 
@@ -7,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/horizontal-line.css";
 
 /*screens*/
 @import "screens/login.css";
