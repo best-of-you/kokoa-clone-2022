@@ -5,6 +5,12 @@
     margin: 20px;
 }
 
+.screen-header__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .screen-header__column h1{
     font-size: 25px;
     font-weight: 600;
@@ -12,4 +18,19 @@
 
 .screen-header__column i{
     margin-left: 20px;
+}
+
+.screen-header__column:last-child{
+    position: relative;
+}
+
+.screen-header__column:last-child div{
+    position:absolute;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
