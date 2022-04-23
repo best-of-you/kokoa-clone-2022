@@ -1,0 +1,15 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.screen-header__column h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.screen-header__column i{
+    margin-left: 20px;
+}

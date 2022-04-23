@@ -1,0 +1,44 @@
+#nav-bar ul{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav-bar li:nth-child(2){
+    position: relative;
+}
+
+#nav-bar li:nth-child(2) div{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    bottom: 8px;
+    left: 13px;
+    font-size: 13px;
+}
+
+#nav-bar li:last-child{
+    position: relative;
+}
+#nav-bar li:last-child div{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    top: -8px;
+    right: -5px;
+}

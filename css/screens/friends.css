@@ -1,0 +1,28 @@
+#friends-display-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 10px 0;
+}
+
+#friends-display-bar > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color:rgba(0, 0, 0, 0.06);
+    margin-right: 7px;
+}
+
+#friends-display-bar > div > i{
+    color:white;
+    opacity: 0.7;
+}
+
+#friends-display-bar > i{
+    color:rgba(0, 0, 0, 0.06);
+    margin-left: 15px;
+}
