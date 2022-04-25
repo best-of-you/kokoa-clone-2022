@@ -1,0 +1,101 @@
+.find-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.find-icons__icon i{
+    margin-bottom: 10px;
+}
+
+.find-icons__icon div{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.recommended-freinds-text{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat{
+    margin: 0px 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.open-chat__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-chat__row__img img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.open-chat__row__text{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.open-chat__row__text__title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.open-chat__row__text__hashtags{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__row__text__member{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat__row__text__member img{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.open-chat__row__img{
+    position: relative;
+}
+
+.open-chat__row__img span{
+    position: absolute;
+    padding: 3px 6px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 13px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.open-chat__row__img i{
+    margin-right: 2px;
+}

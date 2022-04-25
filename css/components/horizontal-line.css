@@ -5,6 +5,10 @@
     margin: 0 20px;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px 0;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 13px;
+}
+
+.horizontal-line__go{
+    color:rgba(0, 0, 0, 0.3);
 }

@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.screen-header__column:last-child div{
+.chats-screen-header__dot{
     position:absolute;
     background-color: white;
     width: 10px;
@@ -33,4 +33,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.find-screen-header__dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    top: -12px;
+    right: -7px;
 }
