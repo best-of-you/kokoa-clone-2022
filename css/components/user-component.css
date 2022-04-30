@@ -14,14 +14,14 @@
     align-items: center;
 }
 
-.user-component-lg__column:first-child > div{
+.user-component-lg__column__text{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 15px;
 }
 
-.user-component-lg__column:first-child > div span{
+.user-component-lg__column__text span{
     color: rgba(0, 0, 0, 0.3);
     font-size: 17px;
     font-family: 'Gamja Flower', cursive;

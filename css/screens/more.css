@@ -1,0 +1,72 @@
+.user-component-lg__column__{
+    margin-right: 5px;
+}
+
+.user-component-lg__column__text span{
+    display: flex;
+}
+
+.user-component-lg__column__text div{
+    font-size: 12px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid tomato;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.more-suggestion-line{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    padding: 25px 0;
+}
+
+.suggestions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.suggestion__img{
+    width: 50px;
+    height: 50px;
+}
+
+.suggestion__img img{
+    width: 50px;
+    height: 50px;
+}
+
+.suggestion span{
+    font-size: 14px;
+    color: rbga(0, 0, 0, 0.4);
+}
+
+.suggestion__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    border-radius: 7px;
+}
+
+.suggestion-blank{
+    background-color: inherit;
+}
+
+.suggestion__img i{
+    color:white;
+}

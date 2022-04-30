@@ -9,12 +9,19 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/horizontal-line.css";
+@import "components/row-icons.css";
+@import "components/alt-header.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/splash.css";
 
 body{
     font-family: 'Work Sans', sans-serif;
+    margin-top: 40px;
 }
