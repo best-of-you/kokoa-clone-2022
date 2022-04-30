@@ -21,3 +21,19 @@
         visibility: hidden;
     }
 }
+
+@keyframes SplashStatusBar{
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#chats-body .status-bar__column{
+    transform: translateY(-40px);
+    animation: SplashStatusBar 0.4s ease-in-out forwards;
+    animation-delay: 1.5s;
+}

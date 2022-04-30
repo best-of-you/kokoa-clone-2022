@@ -15,6 +15,19 @@
     position: relative;
 }
 
+@keyframes NewMassageAlarmpop{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotateY(360deg) translateY(-7px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+
 #nav-bar li:nth-child(2) div{
     width: 17px;
     height: 17px;
@@ -28,11 +41,14 @@
     bottom: 8px;
     left: 13px;
     font-size: 13px;
+    will-change: transform;
+    animation: NewMassageAlarmpop 1s ease-in-out infinite;
 }
 
 #nav-bar li:last-child{
     position: relative;
 }
+
 #nav-bar li:last-child div{
     width: 5px;
     height: 5px;
@@ -41,4 +57,47 @@
     position: absolute;
     top: -8px;
     right: -5px;
+}
+
+@keyframes ShowupBar{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: traslateY(0px);
+        opacity: 1;
+    }
+}
+
+#nav-bar ul{
+    animation: ShowupBar 1s ease-in-out forwards;
+}
+
+@keyframes PopInIcon{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+#nav-bar li, #nav-bar li div{
+    animation: PopInIcon 0.6s ease-in-out forwards;
+}
+
+#nav-bar li:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+#nav-bar li:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+#nav-bar li:last-child{
+    animation-delay: 0.3s;
 }

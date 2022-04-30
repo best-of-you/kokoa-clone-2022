@@ -44,3 +44,29 @@
     top: -8px;
     right: -7px;
 }
+
+@keyframes ScaleUpMore{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.screen-header__column .fa-search:hover{
+    animation: ScaleUpMore 0.1s ease-in-out forwards;
+}
+
+@keyframes SpinCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+
+.screen-header__column .fa-cog:hover{
+    animation: SpinCog 0.5s ease-in-out infinite;
+}

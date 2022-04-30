@@ -27,3 +27,8 @@
 .alt-header__title__korean{
     font-family: 'Gamja Flower', cursive;
 }
+
+.alt-header__column .fa-search:hover,
+.alt-header__column .fa-chevron-left:hover{
+    animation: ScaleUpMore 0.1s ease-in-out forwards;
+}

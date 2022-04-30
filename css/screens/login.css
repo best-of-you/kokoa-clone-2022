@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+#login-form #not-allowed-btn{
+    cursor: not-allowed;
+}
+
 #login-form input[type=submit]:active{
     background-color: rgb(222, 224, 195);
 }
@@ -66,4 +70,8 @@
     text-decoration: none;
     text-align: center;
     color: black;
+}
+
+#login-form a{
+    cursor: not-allowed;
 }

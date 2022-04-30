@@ -70,3 +70,7 @@
 .suggestion__img i{
     color:white;
 }
+
+.suggestion:hover{
+    animation: ScaleUpMore 0.1s ease-in-out forwards;
+}

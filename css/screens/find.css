@@ -73,3 +73,24 @@
 .open-chat__row__img i{
     margin-right: 2px;
 }
+
+.open-chat__row:hover{
+    animation: ScaleUp 0.1s ease-in-out forwards;
+}
+
+@keyframes HeartBeat{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1.5);
+        color: #f96161;
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.open-chat__row__img:hover i{
+    animation: HeartBeat 0.3s ease-in-out infinite;
+}
