@@ -11,7 +11,8 @@
 }
 
 .setting{
-    padding: 18px 30px;
+    margin: 0 30px; 
+    padding: 18px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,3 +29,21 @@
 .setting__column:last-child span{
     color: rgba(0, 0, 0, 0.6)
 }
+
+@keyframes ScaleUpMoreNMore{
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+.setting:hover{
+    animation: ScaleUp 0.1s ease-in-out forwards;
+}
+
+.setting:hover i{
+    animation: ScaleUpMoreNMore 0.1s ease-in-out forwards;
+}
+
