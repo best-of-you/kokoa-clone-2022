@@ -115,12 +115,10 @@
 .reply__column:last-child{
     width: 90%;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .reply input{
+    box-sizing: border-box;
     width: 100%;
     border-radius: 20px;
     background-color: white;
@@ -147,7 +145,7 @@
 
 .reply__column button{
     bottom: 5px;
-    right: 9px;
+    right: 6px;
     border: none;
     background-color: var(--yellow);
     width: 30px;
@@ -200,7 +198,7 @@
 }
 
 .reply:focus-within input{
-    width: 98vw;
+    width: 95vw;
     transform: translateX(-10%) translateY(-80px);
 }
 

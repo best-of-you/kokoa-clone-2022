@@ -11,6 +11,8 @@
 @import "components/horizontal-line.css";
 @import "components/row-icons.css";
 @import "components/alt-header.css";
+@import "components/splash.css";
+@import "components/no-mobile.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -19,7 +21,6 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-@import "screens/splash.css";
 
 body{
     font-family: 'Work Sans', sans-serif;
