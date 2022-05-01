@@ -145,7 +145,7 @@
 
 .reply__column button{
     bottom: 5px;
-    right: 6px;
+    right: 10px;
     border: none;
     background-color: var(--yellow);
     width: 30px;
@@ -199,7 +199,7 @@
 
 .reply:focus-within input{
     width: 95vw;
-    transform: translateX(-10%) translateY(-80px);
+    transform: translateX(-9.75%) translateY(-80px);
 }
 
 .reply:focus-within button{

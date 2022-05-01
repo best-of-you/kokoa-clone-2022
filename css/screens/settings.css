@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.settings-down{
+    margin-bottom: 50px;
+}
+
 .settings-up{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
