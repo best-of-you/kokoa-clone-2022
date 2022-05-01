@@ -1,3 +1,7 @@
+.setting-page{
+    background-color: white;
+}
+
 .settings-up .settings-down{
     display: flex;
     flex-direction: column;

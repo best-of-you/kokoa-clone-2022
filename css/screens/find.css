@@ -1,3 +1,7 @@
+.find{
+    background-color: white;
+}
+
 .recommended-freinds-text{
     height: 200px;
     display: flex;
@@ -93,4 +97,8 @@
 
 .open-chat__row__img:hover i{
     animation: HeartBeat 0.3s ease-in-out infinite;
+}
+
+.find .screen-header{
+    padding-top: 5px;
 }
